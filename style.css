@@ -78,6 +78,10 @@ tfoot td {
     right: 0;
     z-index: 100;
   }
+   tbody tr:nth-child(19n) {
+     page-break-before: always !important;
+     page-break-after: always;
+     }
   tbody tr {
     page-break-inside: avoid;
   }
